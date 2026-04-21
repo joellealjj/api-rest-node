@@ -25,3 +25,4 @@
 - [x] middlewares fastify verifica se o cookie existe
 - [x] instalar vitest para criar testes unitários
 - [x] instalar tsup e rodar npm run build para criar build deploy
+- [x] criar deploy com render.com
