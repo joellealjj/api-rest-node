@@ -11,15 +11,16 @@
 - [ ] Deve ser possível identificarmos o usuário entre as requisições;
 - [ ] O usuário só pode visualizar transações o qual ele criou;
 
-<!--START_SECTION:footer-->
 
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
+npm run knex -- migrate:latest | ler e criar as migration IMPORTANTE
+criar .env e .env.test para banco de dados
+npm run knex -- migrate:rollback | desfaz a migration criada, caso tenha errado algo
+npm run knex -- migrate:make add-session-id-to-transactions | criar sessão dentro da tabela transaction (alterar)
+npm run dev | executar servidor
+http localhost:3333/hello | executar aplicação (trazendo as tabelas)
+usar validação de dotenv e routes com zod
+@types knex para tipar as tabelas
+npm i @fastify/cookie para salvar dados em cookie
+middlewares fastify verifica se o cookie existe
+instalar vitest para criar testes unitários
+instalar tsup e rodar npm run build para criar build deploy
