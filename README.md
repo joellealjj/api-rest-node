@@ -16,7 +16,7 @@
 - [x] npm run knex -- migrate:latest | ler e criar as migration IMPORTANTE
 - [x] criar .env e .env.test para banco de dados
 - [x] npm run knex -- migrate:rollback | desfaz a migration criada, caso tenha errado algo
-- [x] npm run knex -- migrate:make add-session-id-to-transactions | criar sessão dentro da tabela transaction (alterar)
+- [x] npm run knex -- migrate:make add-session-id-to-transactions | criar sessão dentro da tabela transaction
 - [x] npm run dev | executar servidor
 - [x] http localhost:3333/hello | executar aplicação (trazendo as tabelas)
 - [x] usar validação de dotenv e routes com zod
